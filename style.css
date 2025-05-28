@@ -13,8 +13,9 @@ body {
 header {
     padding: 30px 0px;
 }
-nav{
-        justify-content: space-between;
+
+nav {
+    justify-content: space-between;
 
 }
 
@@ -22,23 +23,10 @@ nav{
     padding: 210px 0px 220px !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.navbar-main {
+/* .navbar-main {
     padding: 42px 135px 40px 50px !important;
 
-}
+} */
 
 nav,
 .section-2,
@@ -53,12 +41,15 @@ footer {
 /* .navbar-nav{
     padding-left: 180px !important;
 } */
-.btn-1 ,.btn-2{
+.btn-1,
+.btn-2 {
     font-size: 14px;
     padding: 12px 22px;
 
 }
-
+.sec-2-icons{
+    width: 18px;
+}
 
 
 .btn-1:hover {
@@ -240,16 +231,18 @@ footer {
     header .navbar>.container-fluid {
         justify-content: right;
     }
-    
-    
+
+
     .navbar-collapse {
         margin-top: 30px;
     }
-    .navbar-nav{
+
+    .navbar-nav {
         flex-direction: column !important;
     }
-    nav{
-         flex-direction: column !important;
+
+    nav {
+        flex-direction: column !important;
     }
 
     header {
@@ -288,7 +281,7 @@ footer {
 
 
 @media screen and (max-width: 768px) {
- 
+
 
     .section-2 {
         padding: 56px 20px;
